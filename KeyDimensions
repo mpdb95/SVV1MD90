@@ -1,0 +1,42 @@
+"""
+SVV Structures assignment 2015-2016 MD90
+Group A25
+"""
+
+# ==================Load in all packages needed==========
+import numpy as np
+
+
+
+# -------------------Define key dimensions for program--------------------------
+
+
+print "Loading in all key parameters"
+
+# Fuselage and landing gear dimensions
+L_fuse = 40.        #m
+L_f1 = 2.           #m
+L_f2 = 25.5         #m
+L_f3 = 4.8          #m
+R_fuse = 2.         #m
+h_f = 1.5           #m
+t_skin = 0.003      #m
+t_floor = 0.02      #m
+
+# Stiffener dimensions
+t_stiff = 0.0012    #m
+h_stiff = 0.015     #m
+w_stiff = 0.020     #m
+
+# Rudder force location
+d_tailz = 2.        #m
+d_taily = 3.        #m
+
+# Distance landing gear and fuselage
+d_lgy = 1.4         #m
+
+# Rudder force and aircraft weight
+S_xrud = 1.47*10**5  #N
+W_ac = 60000        #kg
+
+print "Finished loading"
